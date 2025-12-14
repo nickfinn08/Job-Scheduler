@@ -1,0 +1,66 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# =========================
+# IDEs
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Spring Boot
+# =========================
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Docker
+# =========================
+docker-data/
+postgres-data/
+**/data/
+*.pid
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Test Reports
+# =========================
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*.bak
